@@ -4,7 +4,7 @@ namespace BsdFinalProject.DTOs
 {
     public class CreateCategoryDto
     {
-        [Required, MaxLength(20)]
+        [Required, MaxLength(100)]
         public string Name { get; set; }
     }
 }

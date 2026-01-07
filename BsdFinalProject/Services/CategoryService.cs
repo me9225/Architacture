@@ -1,18 +1,19 @@
 //using BsdFinalProject.IRepositories;
 //using BsdFinalProject.IServices;
 using BsdFinalProject.DTOs;
+using BsdFinalProject.IService;
 using BsdFinalProject.Models;
 using BsdFinalProject.Repositories;
 
 namespace BsdFinalProject.Services
 {
-    public class CategoryService
+    public class CategoryService : ICategoryService
     {
         private readonly CategoryRepository _repository = new();
 
         public async Task<List<CategoryDto>> GetAllCategories()
         {
-            var categories= await _repository.GetAllCategories();
+            var categories = await _repository.GetAllCategories();
             if (categories == null) return new List<CategoryDto>();
             return categories.Select(c => new CategoryDto
             {

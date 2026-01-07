@@ -1,12 +1,13 @@
 //using AutoMapper;
 using BsdFinalProject.Data;
+using BsdFinalProject.IRepository;
 using BsdFinalProject.Models;
 using Chocolate.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 namespace FinalProject.Repositories
 {
-    public class BasketRepository
+    public class BasketRepository : IBasketRepository
     {
         SaleContext _context = SaleContextFactory.CreateContext();
         //private readonly IMapper _mapper;

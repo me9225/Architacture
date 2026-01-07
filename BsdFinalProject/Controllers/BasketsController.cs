@@ -39,7 +39,7 @@ namespace FinalProject.Controllers
             return Ok(list);
         }*/
 
-        [HttpGet("{id:int}")]
+        [HttpGet]
         public async Task<ActionResult<List<BasketDto>>> GetAllMyBasket()
 
         {

@@ -1,4 +1,5 @@
 using BsdFinalProject.Data;
+using BsdFinalProject.IRepository;
 using BsdFinalProject.Models;
 using Chocolate.Data;
 using Microsoft.EntityFrameworkCore;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BsdFinalProject.Repositories
 {
-    public class UserRepository
+    public class UserRepository : IUserRepository
     {
         SaleContext _context = SaleContextFactory.CreateContext();
 

@@ -1,69 +1,67 @@
 using BsdFinalProject.Data;
 using BsdFinalProject.DTOs;
 using BsdFinalProject.Models;
+using BsdFinalProject.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace BsdFinalProject.Controllers
 {
+    [Authorize(Roles ="Manager")]
     [ApiController]
     [Route("api/[controller]")]
     public class WinnersController : ControllerBase
     {
         private readonly SaleContext _context;
-        public WinnersController(SaleContext context) => _context = context;
+        private readonly WinnerService _winnerService;
+        public WinnersController(SaleContext context, WinnerService winnerService)
+        {
+            _context = context;
+            _winnerService = winnerService;
+        }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<WinnerDto>>> GetAll()
+        public async Task<ActionResult<IEnumerable<WinnerDto>>> GetAllWinners()
         {
-            var list = await _context.Winner
-                .Select(w => new WinnerDto {
-                    Id = w.Id,
-                    IdUser = w.IdUser,
-                    IdGift = w.IdGift
-                })
-                .ToListAsync();
-            return Ok(list);
-        }
+            try
+            {
+                var winners = await _winnerService.getAllWinners();
+                return Ok(winners);
 
-        [HttpGet("{id:int}")]
-        public async Task<ActionResult<WinnerDto>> GetById(int id)
-        {
-            var w = await _context.Winner.FindAsync(id);
-            if (w == null) return NotFound();
-            return Ok(new WinnerDto { Id = w.Id, IdUser = w.IdUser, IdGift = w.IdGift });
-        }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
 
-        [HttpPost]
-        public async Task<ActionResult<WinnerDto>> Create(CreateWinnerDto create)
-        {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
-            var winner = new Winner { IdUser = create.IdUser, IdGift = create.IdGift };
-            _context.Winner.Add(winner);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetById), new { id = winner.Id }, new WinnerDto { Id = winner.Id, IdUser = winner.IdUser, IdGift = winner.IdGift });
-        }
 
-        [HttpPut("{id:int}")]
-        public async Task<IActionResult> Update(int id, CreateWinnerDto update)
-        {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
-            var winner = await _context.Winner.FindAsync(id);
-            if (winner == null) return NotFound();
-            winner.IdUser = update.IdUser;
-            winner.IdGift = update.IdGift;
-            await _context.SaveChangesAsync();
-            return NoContent();
         }
-
-        [HttpDelete("{id:int}")]
-        public async Task<IActionResult> Delete(int id)
+        [HttpPost("{GiftId:int}")]
+        public async Task<ActionResult<WinnerDto>> CreateNewWinner(int GiftId)
         {
-            var winner = await _context.Winner.FindAsync(id);
-            if (winner == null) return NotFound();
-            _context.Winner.Remove(winner);
-            await _context.SaveChangesAsync();
-            return NoContent();
+            try
+            {
+                var newWinner = _winnerService.CreateNewWinner(GiftId);
+                return Ok(newWinner);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpDelete]
+        public async Task<ActionResult<bool>> DeleteAllWinners()
+        {
+            try
+            {
+                var result = _winnerService.DeleteAllWinners();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

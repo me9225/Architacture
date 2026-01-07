@@ -19,20 +19,52 @@ namespace BsdFinalProject.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Basket configuration
-            modelBuilder.Entity<Basket>(entity =>
-            {
-                entity.HasKey(e => e.Id);
-            });
+        // Basket configuration
+        modelBuilder.Entity<Basket>(entity =>
+        {
+            entity.HasKey(e => e.Id);
+            entity.Property(e => e.UserId)
+                .IsRequired(); // UserId must be required
 
-            // Card configuration
-            modelBuilder.Entity<Card>(entity =>
-            {
-                entity.HasKey(e => e.Id);
+            entity.Property(e => e.GiftId)
+                .IsRequired(); // GiftId must be required
 
-            });
-            // Category configuration
-            modelBuilder.Entity<Category>(entity =>
+            entity.HasOne(e => e.User)
+                .WithMany() // Assuming a User can have many Baskets
+                .HasForeignKey(e => e.UserId) // Defining the foreign key relationship
+                .OnDelete(DeleteBehavior.Cascade); // Optional: cascade delete
+            entity.HasOne(e => e.Gift)
+                .WithMany()
+                .HasForeignKey(e => e.GiftId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+        });
+
+        // Card configuration
+        modelBuilder.Entity<Card>(entity =>
+        {
+            entity.HasKey(e => e.Id);
+
+            entity.Property(e => e.UserId)
+                .IsRequired(); 
+
+            entity.Property(e => e.GiftId)
+                .IsRequired(); 
+            entity.Property(e => e.BuingDate);
+              
+            entity.HasOne(e => e.Gift)
+                .WithMany() 
+                .HasForeignKey(e => e.GiftId) 
+                .OnDelete(DeleteBehavior.Cascade); 
+
+            entity.HasOne(e => e.User)
+                .WithMany() 
+                .HasForeignKey(e => e.UserId) 
+                .OnDelete(DeleteBehavior.Cascade); 
+        });
+        
+        // Category configuration
+        modelBuilder.Entity<Category>(entity =>
             {
                 entity.HasKey(e => e.Id);
                 entity.Property(e => e.Name).IsRequired().HasMaxLength(100);
@@ -64,7 +96,7 @@ namespace BsdFinalProject.Data
                 entity.Property(e => e.Cost).IsRequired().HasDefaultValue(30);
                 entity.HasCheckConstraint("CK_Gift_Cost", "Cost > 10 AND Cost < 100");
                 entity.Property(e => e.Picture).HasMaxLength(300);
-                entity.Property(e => e.WinnerName).HasMaxLength(100).HasDefaultValue("").HasMaxLength(100);
+                entity.Property(e => e.WinnerName).HasMaxLength(100).HasDefaultValue("");
                 entity.HasMany(e => e.CardsList)
                       .WithOne(e => e.Gift)
                       .HasForeignKey(e => e.GiftId)

@@ -1,12 +1,13 @@
 using BsdFinalProject.Data;
 using BsdFinalProject.DTOs;
+using BsdFinalProject.IRepository;
 using BsdFinalProject.Models;
 using Chocolate.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace BsdFinalProject.Repositories
 {
-    public class DonorRepository
+    public class DonorRepository : IDonorRepository
     {
         SaleContext _context = SaleContextFactory.CreateContext();
 

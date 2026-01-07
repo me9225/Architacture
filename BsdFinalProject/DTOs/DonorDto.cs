@@ -4,9 +4,10 @@ namespace BsdFinalProject.DTOs
 {
     public class DonorDto
     {
+        [Required]
         public int Id { get; set; }
 
-        [MaxLength(20)]
+        [MaxLength(100)]
         public string Name { get; set; }
 
         [EmailAddress, MaxLength(50)]

@@ -9,10 +9,11 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.IdentityModel.Tokens.Jwt;
+using BsdFinalProject.IService;
 
 namespace BsdFinalProject.Services
 {
-    public class UserService
+    public class UserService : IUserService
     {
         private readonly UserRepository _repo;
         private readonly IConfiguration _config;
@@ -114,7 +115,7 @@ namespace BsdFinalProject.Services
             return $"{iterations}.{Convert.ToBase64String(salt)}.{Convert.ToBase64String(hash)}";
         }
 
-        public static bool VerifyPassword(string hashedPassword, string password)
+        public bool VerifyPassword(string hashedPassword, string password)
         {
             var parts = hashedPassword.Split('.', 3);
             if (parts.Length != 3) return false;

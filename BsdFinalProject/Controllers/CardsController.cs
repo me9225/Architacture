@@ -1,8 +1,11 @@
 using BsdFinalProject.Data;
-using BsdFinalProject.Models;
 using BsdFinalProject.DTOs;
+using BsdFinalProject.Models;
+using BsdFinalProject.Services;
+using FinalProject.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace BsdFinalProject.Controllers
 {
@@ -11,62 +14,47 @@ namespace BsdFinalProject.Controllers
     public class CardsController : ControllerBase
     {
         private readonly SaleContext _context;
-        public CardsController(SaleContext context) => _context = context;
+        private readonly CardService _CardService;
+        //public BasketsController(SaleContext context) => _context = context;
 
+        public CardsController(CardService cardService, SaleContext context)
+        {
+            _CardService = cardService;
+            _context = context;
+        }
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CardDto>>> GetAll()
+        public async Task<ActionResult<List<Card>>> GetAllMyCards()
         {
-            var list = await _context.Card
-                .Select(c => new CardDto
-                {
-                    Id = c.Id,
-                    UserId = c.UserId,
-                    GiftId = c.GiftId,
-                    BuingDate = c.BuingDate
-                })
-                .ToListAsync();
-            return Ok(list);
-        }
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userId == null)
+                return Unauthorized();
+            int UId = int.Parse(userId);
 
-        [HttpGet("{id:int}")]
-        public async Task<ActionResult<CardDto>> GetById(int id)
-        {
-            var c = await _context.Card.FindAsync(id);
-            if (c == null) return NotFound();
-            return Ok(new CardDto { Id = c.Id, UserId = c.UserId, GiftId = c.GiftId, BuingDate = c.BuingDate });
-        }
+            try
+            {
+                var Cards = await _CardService.GetAllMyCards(UId);
+                 return Ok(Cards);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
 
+
+        }
         [HttpPost]
-        public async Task<ActionResult<CardDto>> Create(CreateCardDto create)
+        public async Task<ActionResult<List<CardDto>>> CreateNewCards([FromBody] List<BasketDto> baskets)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
-            var card = new Card { UserId = create.UserId, GiftId = create.GiftId, BuingDate = create.BuingDate };
-            _context.Card.Add(card);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetById), new { id = card.Id }, new CardDto { Id = card.Id, UserId = card.UserId, GiftId = card.GiftId, BuingDate = card.BuingDate });
+            try
+            {
+                var createdCards = await _CardService.CreateNewCards(baskets);
+                return Ok(createdCards);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
 
-        [HttpPut("{id:int}")]
-        public async Task<IActionResult> Update(int id, CreateCardDto update)
-        {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
-            var card = await _context.Card.FindAsync(id);
-            if (card == null) return NotFound();
-            card.UserId = update.UserId;
-            card.GiftId = update.GiftId;
-            card.BuingDate = update.BuingDate;
-            await _context.SaveChangesAsync();
-            return NoContent();
-        }
-
-        [HttpDelete("{id:int}")]
-        public async Task<IActionResult> Delete(int id)
-        {
-            var card = await _context.Card.FindAsync(id);
-            if (card == null) return NotFound();
-            _context.Card.Remove(card);
-            await _context.SaveChangesAsync();
-            return NoContent();
-        }
     }
 }

@@ -1,12 +1,13 @@
 //using BsdFinalProject.IRepositories;
 //using BsdFinalProject.IServices;
 using BsdFinalProject.DTOs;
+using BsdFinalProject.IService;
 using BsdFinalProject.Models;
 using BsdFinalProject.Repositories;
 
 namespace BsdFinalProject.Services
 {
-    public class DonorService
+    public class DonorService : IDonorService
     {
         private readonly DonorRepository _repository = new();
 
@@ -21,7 +22,7 @@ namespace BsdFinalProject.Services
             {
                 Id = donor.Id,
                 Name = donor.Name,
-                Email= donor.EMail
+                Email = donor.EMail
             };
         }
 
@@ -29,14 +30,14 @@ namespace BsdFinalProject.Services
         {
             var existingDonor = await _repository.GetDonorByEmail(donor.Email);
             if (existingDonor != null)
-                {
-                    throw new Exception("A donor with this email already exists.");
-                }
+            {
+                throw new Exception("A donor with this email already exists.");
+            }
             var donorModel = new Donor
             {
                 Name = donor.Name,
                 EMail = donor.Email,
-                GiftsList= new List<Gift>()
+                GiftsList = new List<Gift>()
             };
             var createdDonor = await _repository.CreateNewDonor(donorModel);
             return new DonorDto
@@ -102,7 +103,7 @@ namespace BsdFinalProject.Services
                 WinnerName = g.WinnerName
             }).ToList();
         }
-        
-        
+
+
     }
 }

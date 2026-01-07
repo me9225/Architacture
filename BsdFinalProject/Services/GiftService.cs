@@ -3,10 +3,11 @@
 using BsdFinalProject.Models;
 using BsdFinalProject.Repositories;
 using BsdFinalProject.DTOs;
+using BsdFinalProject.IService;
 
 namespace BsdFinalProject.Services
 {
-    public class GiftService
+    public class GiftService : IGiftService
     {
         private readonly GiftRepository _repository = new();
         private readonly CategoryRepository _Crepository = new();
@@ -21,7 +22,7 @@ namespace BsdFinalProject.Services
                 Picture = giftDto.Picture,
                 CategoryId = giftDto.CategoryId,
                 DonorId = giftDto.DonorId,
-               
+
             };
 
             var g = await _repository.CreateNewGift(gift);
@@ -87,11 +88,11 @@ namespace BsdFinalProject.Services
                 return null;
             }
             var gifts = await _repository.GetGiftsByCategory(categoryId);
-            if(gifts == null)
+            if (gifts == null)
             {
                 return null;
             }
-            
+
             return gifts.Select(g => new GiftDto
             {
                 Id = g.Id,
@@ -116,19 +117,19 @@ namespace BsdFinalProject.Services
                 price1 = price2;
                 price2 = temp;
             }
-                var gifts = await _repository.GetGiftByCost(price1, price2);
-                return gifts.Select(g => new GiftDto
-                {
-                    Id = g.Id,
-                    Name = g.Name,
-                    Description = g.Description,
-                    Cost = g.Cost,
-                    Picture = g.Picture,
-                    CategoryId = g.CategoryId,
-                    DonorId = g.DonorId,
-                    WinnerName = g.WinnerName
-                }).ToList();
-            
-        } 
+            var gifts = await _repository.GetGiftByCost(price1, price2);
+            return gifts.Select(g => new GiftDto
+            {
+                Id = g.Id,
+                Name = g.Name,
+                Description = g.Description,
+                Cost = g.Cost,
+                Picture = g.Picture,
+                CategoryId = g.CategoryId,
+                DonorId = g.DonorId,
+                WinnerName = g.WinnerName
+            }).ToList();
+
+        }
     }
 }
