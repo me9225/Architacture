@@ -1,0 +1,357 @@
+2026-06-25 11:37:44.579 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-06-25 11:37:44.759 +03:00 [DBG] Hosting starting
+2026-06-25 11:37:44.826 +03:00 [INF] User profile is available. Using 'C:\Users\NehamaR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-25 11:37:44.857 +03:00 [DBG] Reading data from file 'C:\Users\NehamaR\AppData\Local\ASP.NET\DataProtection-Keys\key-24c15d37-a0e3-4f67-b3be-e00c71a9f404.xml'.
+2026-06-25 11:37:44.867 +03:00 [DBG] Reading data from file 'C:\Users\NehamaR\AppData\Local\ASP.NET\DataProtection-Keys\key-82301ec4-2312-4436-b351-667a555de58b.xml'.
+2026-06-25 11:37:44.874 +03:00 [DBG] Found key {24c15d37-a0e3-4f67-b3be-e00c71a9f404}.
+2026-06-25 11:37:44.881 +03:00 [DBG] Found key {82301ec4-2312-4436-b351-667a555de58b}.
+2026-06-25 11:37:44.890 +03:00 [DBG] Considering key {82301ec4-2312-4436-b351-667a555de58b} with expiration date 2026-09-23 08:01:31Z as default key.
+2026-06-25 11:37:44.896 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-06-25 11:37:44.901 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-06-25 11:37:44.905 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-06-25 11:37:44.915 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-06-25 11:37:44.919 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-06-25 11:37:44.924 +03:00 [DBG] Using key {82301ec4-2312-4436-b351-667a555de58b} as the default key.
+2026-06-25 11:37:44.927 +03:00 [DBG] Key ring with default key {82301ec4-2312-4436-b351-667a555de58b} was loaded during application startup.
+2026-06-25 11:37:44.940 +03:00 [DBG] Middleware loaded
+2026-06-25 11:37:44.952 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (14935 B).
+2026-06-25 11:37:44.958 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-06-25 11:37:45.135 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-06-25 11:37:45.140 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-06-25 11:37:45.163 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-06-25 11:37:45.563 +03:00 [INF] Now listening on: https://localhost:7097
+2026-06-25 11:37:45.565 +03:00 [INF] Now listening on: http://localhost:5256
+2026-06-25 11:37:45.567 +03:00 [DBG] Loaded hosting startup assembly BsdFinalProject
+2026-06-25 11:37:45.568 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-06-25 11:37:45.571 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-06-25 11:37:45.573 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-06-25 11:37:45.583 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2026-06-25 11:37:45.587 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2026-06-25 11:37:45.700 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-25 11:37:45.702 +03:00 [INF] Hosting environment: Development
+2026-06-25 11:37:45.704 +03:00 [INF] Content root path: C:\גילי-מסלול\ArcitactureProject2\BsdFinalProject
+2026-06-25 11:37:45.706 +03:00 [DBG] Hosting started
+2026-06-25 11:38:06.092 +03:00 [DBG] Connection id "0HNMIIKA06O4G" accepted.
+2026-06-25 11:38:06.107 +03:00 [DBG] Connection id "0HNMIIKA06O4G" started.
+2026-06-25 11:38:06.225 +03:00 [DBG] Connection 0HNMIIKA06O4G established using the following protocol: "Tls13"
+2026-06-25 11:38:06.332 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/ - null null
+2026-06-25 11:38:06.634 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/ - 301 null null 321.8936ms
+2026-06-25 11:38:06.639 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/index.html - null null
+2026-06-25 11:38:06.705 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-06-25 11:38:06.721 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-06-25 11:38:06.756 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-06-25 11:38:06.759 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-06-25 11:38:06.761 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/index.html - 200 null text/html;charset=utf-8 122.3272ms
+2026-06-25 11:38:06.774 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger-ui.css - null null
+2026-06-25 11:38:06.774 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-25 11:38:06.774 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger-ui-bundle.js - null null
+2026-06-25 11:38:06.774 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger-ui-standalone-preset.js - null null
+2026-06-25 11:38:06.774 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - null null
+2026-06-25 11:38:06.804 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-06-25 11:38:06.844 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-06-25 11:38:06.848 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-06-25 11:38:06.894 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 119.8071ms
+2026-06-25 11:38:06.898 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-06-25 11:38:06.900 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger-ui.css - 200 144929 text/css 126.6784ms
+2026-06-25 11:38:06.903 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger-ui-standalone-preset.js - 200 312163 text/javascript 129.4331ms
+2026-06-25 11:38:06.930 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger-ui-bundle.js - 200 1061536 text/javascript 156.3436ms
+2026-06-25 11:38:06.959 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - 200 null text/javascript; charset=UTF-8 185.046ms
+2026-06-25 11:38:07.096 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - null null
+2026-06-25 11:38:07.144 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.6789ms
+2026-06-25 11:38:11.373 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/index.html - null null
+2026-06-25 11:38:11.379 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-06-25 11:38:11.380 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-06-25 11:38:11.383 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-06-25 11:38:11.386 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-06-25 11:38:11.387 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/index.html - 200 null text/html;charset=utf-8 14.7496ms
+2026-06-25 11:38:11.396 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - null null
+2026-06-25 11:38:11.397 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-25 11:38:11.407 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-06-25 11:38:11.411 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 13.4754ms
+2026-06-25 11:38:11.416 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.4266ms
+2026-06-25 11:38:11.477 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - null null
+2026-06-25 11:38:11.488 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/favicon-32x32.png - null null
+2026-06-25 11:38:11.493 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-06-25 11:38:11.495 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/favicon-32x32.png - 200 628 image/png 7.505ms
+2026-06-25 11:38:11.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.9353ms
+2026-06-25 11:39:26.847 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/api/Gifts/category/2 - null null
+2026-06-25 11:39:26.852 +03:00 [DBG] The request path /api/Gifts/category/2 does not match a supported file type
+2026-06-25 11:39:26.887 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Gifts/category/2'
+2026-06-25 11:39:26.890 +03:00 [DBG] Endpoint 'BsdFinalProject.Controllers.GiftsController.GetGiftsByCategory (BsdFinalProject)' with route pattern 'api/Gifts/category/{categoryId:int}' is valid for the request path '/api/Gifts/category/2'
+2026-06-25 11:39:26.894 +03:00 [DBG] Request matched endpoint 'BsdFinalProject.Controllers.GiftsController.GetGiftsByCategory (BsdFinalProject)'
+2026-06-25 11:39:26.983 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-06-25 11:39:26.988 +03:00 [INF] Executing endpoint 'BsdFinalProject.Controllers.GiftsController.GetGiftsByCategory (BsdFinalProject)'
+2026-06-25 11:39:27.023 +03:00 [INF] Route matched with {action = "GetGiftsByCategory", controller = "Gifts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[BsdFinalProject.DTOs.GiftDto]]] GetGiftsByCategory(Int32) on controller BsdFinalProject.Controllers.GiftsController (BsdFinalProject).
+2026-06-25 11:39:27.028 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-06-25 11:39:27.030 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-06-25 11:39:27.032 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-06-25 11:39:27.035 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-06-25 11:39:27.037 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-06-25 11:39:27.041 +03:00 [DBG] Executing controller factory for controller BsdFinalProject.Controllers.GiftsController (BsdFinalProject)
+2026-06-25 11:39:27.048 +03:00 [INF] Executed action BsdFinalProject.Controllers.GiftsController.GetGiftsByCategory (BsdFinalProject) in 5.7462ms
+2026-06-25 11:39:27.051 +03:00 [INF] Executed endpoint 'BsdFinalProject.Controllers.GiftsController.GetGiftsByCategory (BsdFinalProject)'
+2026-06-25 11:39:27.055 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BsdFinalProject.Services.GiftService' while attempting to activate 'BsdFinalProject.Controllers.GiftsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-25 11:39:27.119 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/api/Gifts/category/2 - 500 null text/plain; charset=utf-8 272.5631ms
+2026-06-25 11:42:40.465 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-06-25 11:42:40.647 +03:00 [DBG] Hosting starting
+2026-06-25 11:42:40.712 +03:00 [INF] User profile is available. Using 'C:\Users\NehamaR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-25 11:42:40.730 +03:00 [DBG] Reading data from file 'C:\Users\NehamaR\AppData\Local\ASP.NET\DataProtection-Keys\key-24c15d37-a0e3-4f67-b3be-e00c71a9f404.xml'.
+2026-06-25 11:42:40.738 +03:00 [DBG] Reading data from file 'C:\Users\NehamaR\AppData\Local\ASP.NET\DataProtection-Keys\key-82301ec4-2312-4436-b351-667a555de58b.xml'.
+2026-06-25 11:42:40.745 +03:00 [DBG] Found key {24c15d37-a0e3-4f67-b3be-e00c71a9f404}.
+2026-06-25 11:42:40.753 +03:00 [DBG] Found key {82301ec4-2312-4436-b351-667a555de58b}.
+2026-06-25 11:42:40.761 +03:00 [DBG] Considering key {82301ec4-2312-4436-b351-667a555de58b} with expiration date 2026-09-23 08:01:31Z as default key.
+2026-06-25 11:42:40.766 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-06-25 11:42:40.770 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-06-25 11:42:40.773 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-06-25 11:42:40.781 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-06-25 11:42:40.784 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-06-25 11:42:40.788 +03:00 [DBG] Using key {82301ec4-2312-4436-b351-667a555de58b} as the default key.
+2026-06-25 11:42:40.791 +03:00 [DBG] Key ring with default key {82301ec4-2312-4436-b351-667a555de58b} was loaded during application startup.
+2026-06-25 11:42:40.804 +03:00 [DBG] Middleware loaded
+2026-06-25 11:42:40.814 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (14935 B).
+2026-06-25 11:42:40.817 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-06-25 11:42:40.909 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-06-25 11:42:40.912 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-06-25 11:42:40.930 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-06-25 11:42:41.339 +03:00 [INF] Now listening on: https://localhost:7097
+2026-06-25 11:42:41.342 +03:00 [INF] Now listening on: http://localhost:5256
+2026-06-25 11:42:41.345 +03:00 [DBG] Loaded hosting startup assembly BsdFinalProject
+2026-06-25 11:42:41.347 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-06-25 11:42:41.349 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-06-25 11:42:41.352 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-06-25 11:42:41.368 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2026-06-25 11:42:41.373 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2026-06-25 11:42:41.578 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-25 11:42:41.582 +03:00 [INF] Hosting environment: Development
+2026-06-25 11:42:41.585 +03:00 [INF] Content root path: C:\גילי-מסלול\ArcitactureProject2\BsdFinalProject
+2026-06-25 11:42:41.592 +03:00 [DBG] Hosting started
+2026-06-25 11:42:50.672 +03:00 [DBG] Connection id "0HNMIIMUQ5OH5" accepted.
+2026-06-25 11:42:50.675 +03:00 [DBG] Connection id "0HNMIIMUQ5OH5" started.
+2026-06-25 11:42:50.758 +03:00 [DBG] Connection 0HNMIIMUQ5OH5 established using the following protocol: "Tls13"
+2026-06-25 11:42:50.845 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/index.html - null null
+2026-06-25 11:42:51.187 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-06-25 11:42:51.203 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-06-25 11:42:51.234 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-06-25 11:42:51.240 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-06-25 11:42:51.245 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/index.html - 200 null text/html;charset=utf-8 413.5043ms
+2026-06-25 11:42:51.329 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - null null
+2026-06-25 11:42:51.329 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-25 11:42:51.345 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-06-25 11:42:51.353 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 23.5697ms
+2026-06-25 11:42:51.400 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.3966ms
+2026-06-25 11:42:51.440 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - null null
+2026-06-25 11:42:51.509 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 68.2924ms
+2026-06-25 11:43:04.294 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/api/Cards - null null
+2026-06-25 11:43:04.312 +03:00 [DBG] The request path /api/Cards does not match a supported file type
+2026-06-25 11:43:04.347 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Cards'
+2026-06-25 11:43:04.351 +03:00 [DBG] Endpoint 'BsdFinalProject.Controllers.CardsController.GetAllMyCards (BsdFinalProject)' with route pattern 'api/Cards' is valid for the request path '/api/Cards'
+2026-06-25 11:43:04.354 +03:00 [DBG] Request matched endpoint 'BsdFinalProject.Controllers.CardsController.GetAllMyCards (BsdFinalProject)'
+2026-06-25 11:43:04.445 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-06-25 11:43:04.450 +03:00 [INF] Executing endpoint 'BsdFinalProject.Controllers.CardsController.GetAllMyCards (BsdFinalProject)'
+2026-06-25 11:43:04.479 +03:00 [INF] Route matched with {action = "GetAllMyCards", controller = "Cards"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[BsdFinalProject.Models.Card]]] GetAllMyCards() on controller BsdFinalProject.Controllers.CardsController (BsdFinalProject).
+2026-06-25 11:43:04.484 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-06-25 11:43:04.487 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-06-25 11:43:04.490 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-06-25 11:43:04.493 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-06-25 11:43:04.496 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-06-25 11:43:04.500 +03:00 [DBG] Executing controller factory for controller BsdFinalProject.Controllers.CardsController (BsdFinalProject)
+2026-06-25 11:43:04.509 +03:00 [INF] Executed action BsdFinalProject.Controllers.CardsController.GetAllMyCards (BsdFinalProject) in 6.4ms
+2026-06-25 11:43:04.513 +03:00 [INF] Executed endpoint 'BsdFinalProject.Controllers.CardsController.GetAllMyCards (BsdFinalProject)'
+2026-06-25 11:43:04.516 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BsdFinalProject.Services.CardService' while attempting to activate 'BsdFinalProject.Controllers.CardsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-25 11:43:04.566 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/api/Cards - 500 null text/plain; charset=utf-8 272.3572ms
+2026-06-25 11:43:37.361 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/api/Gifts - null null
+2026-06-25 11:43:37.374 +03:00 [DBG] The request path /api/Gifts does not match a supported file type
+2026-06-25 11:43:37.379 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Gifts'
+2026-06-25 11:43:37.382 +03:00 [DBG] Endpoint 'BsdFinalProject.Controllers.GiftsController.GetAllGifts (BsdFinalProject)' with route pattern 'api/Gifts' is valid for the request path '/api/Gifts'
+2026-06-25 11:43:37.385 +03:00 [DBG] Request matched endpoint 'BsdFinalProject.Controllers.GiftsController.GetAllGifts (BsdFinalProject)'
+2026-06-25 11:43:37.387 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-06-25 11:43:37.396 +03:00 [INF] Executing endpoint 'BsdFinalProject.Controllers.GiftsController.GetAllGifts (BsdFinalProject)'
+2026-06-25 11:43:37.403 +03:00 [INF] Route matched with {action = "GetAllGifts", controller = "Gifts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BsdFinalProject.DTOs.GiftDto]] GetAllGifts() on controller BsdFinalProject.Controllers.GiftsController (BsdFinalProject).
+2026-06-25 11:43:37.407 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-06-25 11:43:37.409 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-06-25 11:43:37.411 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-06-25 11:43:37.415 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-06-25 11:43:37.418 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-06-25 11:43:37.420 +03:00 [DBG] Executing controller factory for controller BsdFinalProject.Controllers.GiftsController (BsdFinalProject)
+2026-06-25 11:43:37.423 +03:00 [INF] Executed action BsdFinalProject.Controllers.GiftsController.GetAllGifts (BsdFinalProject) in 2.5645ms
+2026-06-25 11:43:37.425 +03:00 [INF] Executed endpoint 'BsdFinalProject.Controllers.GiftsController.GetAllGifts (BsdFinalProject)'
+2026-06-25 11:43:37.428 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BsdFinalProject.Services.GiftService' while attempting to activate 'BsdFinalProject.Controllers.GiftsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method17(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-06-25 11:43:37.436 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/api/Gifts - 500 null text/plain; charset=utf-8 75.2028ms
+2026-06-25 11:46:49.469 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-06-25 11:46:49.635 +03:00 [DBG] Hosting starting
+2026-06-25 11:46:49.707 +03:00 [INF] User profile is available. Using 'C:\Users\NehamaR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-25 11:46:49.726 +03:00 [DBG] Reading data from file 'C:\Users\NehamaR\AppData\Local\ASP.NET\DataProtection-Keys\key-24c15d37-a0e3-4f67-b3be-e00c71a9f404.xml'.
+2026-06-25 11:46:49.733 +03:00 [DBG] Reading data from file 'C:\Users\NehamaR\AppData\Local\ASP.NET\DataProtection-Keys\key-82301ec4-2312-4436-b351-667a555de58b.xml'.
+2026-06-25 11:46:49.740 +03:00 [DBG] Found key {24c15d37-a0e3-4f67-b3be-e00c71a9f404}.
+2026-06-25 11:46:49.747 +03:00 [DBG] Found key {82301ec4-2312-4436-b351-667a555de58b}.
+2026-06-25 11:46:49.754 +03:00 [DBG] Considering key {82301ec4-2312-4436-b351-667a555de58b} with expiration date 2026-09-23 08:01:31Z as default key.
+2026-06-25 11:46:49.760 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-06-25 11:46:49.765 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-06-25 11:46:49.768 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-06-25 11:46:49.778 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-06-25 11:46:49.782 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-06-25 11:46:49.785 +03:00 [DBG] Using key {82301ec4-2312-4436-b351-667a555de58b} as the default key.
+2026-06-25 11:46:49.788 +03:00 [DBG] Key ring with default key {82301ec4-2312-4436-b351-667a555de58b} was loaded during application startup.
+2026-06-25 11:46:49.798 +03:00 [DBG] Middleware loaded
+2026-06-25 11:46:49.810 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (14935 B).
+2026-06-25 11:46:49.813 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-06-25 11:46:49.924 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-06-25 11:46:49.927 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-06-25 11:46:49.943 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-06-25 11:46:50.221 +03:00 [INF] Now listening on: https://localhost:7097
+2026-06-25 11:46:50.223 +03:00 [INF] Now listening on: http://localhost:5256
+2026-06-25 11:46:50.225 +03:00 [DBG] Loaded hosting startup assembly BsdFinalProject
+2026-06-25 11:46:50.226 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-06-25 11:46:50.228 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-06-25 11:46:50.229 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-06-25 11:46:50.238 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2026-06-25 11:46:50.241 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2026-06-25 11:46:50.368 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-25 11:46:50.370 +03:00 [INF] Hosting environment: Development
+2026-06-25 11:46:50.372 +03:00 [INF] Content root path: C:\גילי-מסלול\ArcitactureProject2\BsdFinalProject
+2026-06-25 11:46:50.374 +03:00 [DBG] Hosting started
+2026-06-25 11:46:52.843 +03:00 [DBG] Connection id "0HNMIIP6VMM54" accepted.
+2026-06-25 11:46:52.847 +03:00 [DBG] Connection id "0HNMIIP6VMM54" started.
+2026-06-25 11:46:52.918 +03:00 [DBG] Connection 0HNMIIP6VMM54 established using the following protocol: "Tls13"
+2026-06-25 11:46:52.995 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/index.html - null null
+2026-06-25 11:46:53.278 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-06-25 11:46:53.292 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-06-25 11:46:53.315 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-06-25 11:46:53.321 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-06-25 11:46:53.322 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-25 11:46:53.322 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - null null
+2026-06-25 11:46:53.334 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/index.html - 200 null text/html;charset=utf-8 349.4262ms
+2026-06-25 11:46:53.348 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-06-25 11:46:53.361 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 39.2936ms
+2026-06-25 11:46:53.389 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.1809ms
+2026-06-25 11:46:53.453 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - null null
+2026-06-25 11:46:53.487 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.4289ms
+2026-06-25 11:47:01.008 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/api/Gifts - null null
+2026-06-25 11:47:01.016 +03:00 [DBG] The request path /api/Gifts does not match a supported file type
+2026-06-25 11:47:01.041 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Gifts'
+2026-06-25 11:47:01.044 +03:00 [DBG] Endpoint 'BsdFinalProject.Controllers.GiftsController.GetAllGifts (BsdFinalProject)' with route pattern 'api/Gifts' is valid for the request path '/api/Gifts'
+2026-06-25 11:47:01.049 +03:00 [DBG] Request matched endpoint 'BsdFinalProject.Controllers.GiftsController.GetAllGifts (BsdFinalProject)'
+2026-06-25 11:47:01.137 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-06-25 11:47:01.143 +03:00 [INF] Executing endpoint 'BsdFinalProject.Controllers.GiftsController.GetAllGifts (BsdFinalProject)'
+2026-06-25 11:47:01.172 +03:00 [INF] Route matched with {action = "GetAllGifts", controller = "Gifts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BsdFinalProject.DTOs.GiftDto]] GetAllGifts() on controller BsdFinalProject.Controllers.GiftsController (BsdFinalProject).
+2026-06-25 11:47:01.177 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-06-25 11:47:01.180 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-06-25 11:47:01.183 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-06-25 11:47:01.186 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-06-25 11:47:01.188 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-06-25 11:47:01.192 +03:00 [DBG] Executing controller factory for controller BsdFinalProject.Controllers.GiftsController (BsdFinalProject)
+2026-06-25 11:47:01.438 +03:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: .
+2026-06-25 11:47:01.442 +03:00 [DBG] Executed controller factory for controller BsdFinalProject.Controllers.GiftsController (BsdFinalProject)
+2026-06-25 11:48:53.211 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-06-25 11:48:53.448 +03:00 [DBG] Hosting starting
+2026-06-25 11:48:53.531 +03:00 [INF] User profile is available. Using 'C:\Users\NehamaR\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-25 11:48:53.558 +03:00 [DBG] Reading data from file 'C:\Users\NehamaR\AppData\Local\ASP.NET\DataProtection-Keys\key-24c15d37-a0e3-4f67-b3be-e00c71a9f404.xml'.
+2026-06-25 11:48:53.566 +03:00 [DBG] Reading data from file 'C:\Users\NehamaR\AppData\Local\ASP.NET\DataProtection-Keys\key-82301ec4-2312-4436-b351-667a555de58b.xml'.
+2026-06-25 11:48:53.575 +03:00 [DBG] Found key {24c15d37-a0e3-4f67-b3be-e00c71a9f404}.
+2026-06-25 11:48:53.583 +03:00 [DBG] Found key {82301ec4-2312-4436-b351-667a555de58b}.
+2026-06-25 11:48:53.594 +03:00 [DBG] Considering key {82301ec4-2312-4436-b351-667a555de58b} with expiration date 2026-09-23 08:01:31Z as default key.
+2026-06-25 11:48:53.601 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-06-25 11:48:53.606 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-06-25 11:48:53.610 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-06-25 11:48:53.622 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-06-25 11:48:53.625 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-06-25 11:48:53.629 +03:00 [DBG] Using key {82301ec4-2312-4436-b351-667a555de58b} as the default key.
+2026-06-25 11:48:53.632 +03:00 [DBG] Key ring with default key {82301ec4-2312-4436-b351-667a555de58b} was loaded during application startup.
+2026-06-25 11:48:53.647 +03:00 [DBG] Middleware loaded
+2026-06-25 11:48:53.659 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (14935 B).
+2026-06-25 11:48:53.661 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-06-25 11:48:53.743 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-06-25 11:48:53.747 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-06-25 11:48:53.761 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-06-25 11:48:53.994 +03:00 [INF] Now listening on: https://localhost:7097
+2026-06-25 11:48:53.996 +03:00 [INF] Now listening on: http://localhost:5256
+2026-06-25 11:48:53.998 +03:00 [DBG] Loaded hosting startup assembly BsdFinalProject
+2026-06-25 11:48:54.000 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-06-25 11:48:54.001 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-06-25 11:48:54.003 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-06-25 11:48:54.012 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2026-06-25 11:48:54.015 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2026-06-25 11:48:54.139 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-25 11:48:54.141 +03:00 [INF] Hosting environment: Development
+2026-06-25 11:48:54.143 +03:00 [INF] Content root path: C:\גילי-מסלול\ArcitactureProject2\BsdFinalProject
+2026-06-25 11:48:54.145 +03:00 [DBG] Hosting started
+2026-06-25 11:48:59.053 +03:00 [DBG] Connection id "0HNMIIQCJASPE" accepted.
+2026-06-25 11:48:59.056 +03:00 [DBG] Connection id "0HNMIIQCJASPE" started.
+2026-06-25 11:48:59.128 +03:00 [DBG] Connection 0HNMIIQCJASPE established using the following protocol: "Tls13"
+2026-06-25 11:48:59.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/index.html - null null
+2026-06-25 11:48:59.465 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-06-25 11:48:59.478 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-06-25 11:48:59.503 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-06-25 11:48:59.508 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-06-25 11:48:59.514 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/index.html - 200 null text/html;charset=utf-8 314.5539ms
+2026-06-25 11:48:59.536 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - null null
+2026-06-25 11:48:59.536 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-25 11:48:59.552 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-06-25 11:48:59.556 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - 200 14935 application/javascript; charset=utf-8 19.4114ms
+2026-06-25 11:48:59.583 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.5921ms
+2026-06-25 11:48:59.607 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - null null
+2026-06-25 11:48:59.641 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.0228ms
+2026-06-25 11:49:08.102 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7097/api/Gifts - null null
+2026-06-25 11:49:08.112 +03:00 [DBG] The request path /api/Gifts does not match a supported file type
+2026-06-25 11:49:08.148 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Gifts'
+2026-06-25 11:49:08.152 +03:00 [DBG] Endpoint 'BsdFinalProject.Controllers.GiftsController.GetAllGifts (BsdFinalProject)' with route pattern 'api/Gifts' is valid for the request path '/api/Gifts'
+2026-06-25 11:49:08.155 +03:00 [DBG] Request matched endpoint 'BsdFinalProject.Controllers.GiftsController.GetAllGifts (BsdFinalProject)'
+2026-06-25 11:49:08.252 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2026-06-25 11:49:08.258 +03:00 [INF] Executing endpoint 'BsdFinalProject.Controllers.GiftsController.GetAllGifts (BsdFinalProject)'
+2026-06-25 11:49:08.289 +03:00 [INF] Route matched with {action = "GetAllGifts", controller = "Gifts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[BsdFinalProject.DTOs.GiftDto]] GetAllGifts() on controller BsdFinalProject.Controllers.GiftsController (BsdFinalProject).
+2026-06-25 11:49:08.295 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-06-25 11:49:08.298 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2026-06-25 11:49:08.300 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-06-25 11:49:08.303 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-06-25 11:49:08.306 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-06-25 11:49:08.310 +03:00 [DBG] Executing controller factory for controller BsdFinalProject.Controllers.GiftsController (BsdFinalProject)
+2026-06-25 11:49:08.536 +03:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: .
+2026-06-25 11:49:08.539 +03:00 [DBG] Executed controller factory for controller BsdFinalProject.Controllers.GiftsController (BsdFinalProject)
