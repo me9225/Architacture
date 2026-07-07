@@ -104,6 +104,31 @@ namespace BsdFinalProject.Controllers
             var (success, token, error) = await _service.UserRegister(dto);
             if (!success) return BadRequest(new { error });
 
+            // Plant token as HttpOnly cookie
+            if (!string.IsNullOrEmpty(token))
+            {
+                var handler = new System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler();
+                try
+                {
+                    var jwt = handler.ReadJwtToken(token);
+                    var expires = jwt.ValidTo;
+
+                    var cookieOptions = new CookieOptions
+                    {
+                        HttpOnly = true,
+                        Secure = Request.IsHttps,
+                        SameSite = SameSiteMode.Lax,
+                        Expires = expires
+                    };
+
+                    Response.Cookies.Append("access_token", token, cookieOptions);
+                }
+                catch
+                {
+                    // If token can't be parsed, still return it in body as fallback
+                }
+            }
+
             return Created(string.Empty, new { token });
         }
 
@@ -115,6 +140,31 @@ namespace BsdFinalProject.Controllers
 
             var (success, token, error) = await _service.LoginAsync(dto);
             if (!success) return BadRequest(new { error });
+
+            // Plant token as HttpOnly cookie
+            if (!string.IsNullOrEmpty(token))
+            {
+                var handler = new System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler();
+                try
+                {
+                    var jwt = handler.ReadJwtToken(token);
+                    var expires = jwt.ValidTo;
+
+                    var cookieOptions = new CookieOptions
+                    {
+                        HttpOnly = true,
+                        Secure = Request.IsHttps,
+                        SameSite = SameSiteMode.Lax,
+                        Expires = expires
+                    };
+
+                    Response.Cookies.Append("access_token", token, cookieOptions);
+                }
+                catch
+                {
+                    // ignore parse errors and still return token in body
+                }
+            }
 
             return Ok(new { token });
         }

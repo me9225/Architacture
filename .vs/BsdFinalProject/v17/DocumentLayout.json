@@ -1,0 +1,1048 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\repositories\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\repositories\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\controllers\\manegerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\controllers\\manegerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\data\\salecontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\data\\salecontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\controllers\\winnerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\controllers\\winnerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\controllers\\giftscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\controllers\\giftscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\controllers\\donorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\controllers\\donorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\irepository\\icardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\irepository\\icardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\services\\winnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\services\\winnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\services\\managerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\services\\managerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\services\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\services\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\services\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\services\\donorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\services\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\services\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\iservice\\idonorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\iservice\\idonorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\iservice\\ibasketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\iservice\\ibasketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\irepository\\igiftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\irepository\\igiftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\repositories\\winnerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\repositories\\winnerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\repositories\\managerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\repositories\\managerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\repositories\\giftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\repositories\\giftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\repositories\\donorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\repositories\\donorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\giftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\giftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\donordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\donordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\createwinnerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\createwinnerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\createmanegerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\createmanegerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\creategiftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\creategiftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\createdonordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\createdonordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\createcarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\createcarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\createbasketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\createbasketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\carddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\carddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\winnerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\winnerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\manegerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\manegerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\dtos\\basketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\dtos\\basketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\models\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\models\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\models\\gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\models\\gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\models\\winner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\models\\winner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\csharp BsdFinalProject\\Controllers\\GiftController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:csharp BsdFinalProject\\Controllers\\GiftController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\models\\donor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\bsdfinalproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\bsdfinalproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|m:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\bsdfinalproject\\bsdfinalproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7603C058-DEDB-4065-83DC-7DEA280EE7DE}|BsdFinalProject\\BsdFinalProject.csproj|solutionrelative:bsdfinalproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 187,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Program.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Program.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Program.cs",
+              "RelativeToolTip": "BsdFinalProject\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:10:37.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\appsettings.json",
+              "RelativeDocumentMoniker": "BsdFinalProject\\appsettings.json",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\appsettings.json",
+              "RelativeToolTip": "BsdFinalProject\\appsettings.json",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-31T14:16:38.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CardRepository.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\CardRepository.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Repositories\\CardRepository.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\CardRepository.cs",
+              "RelativeToolTip": "BsdFinalProject\\Repositories\\CardRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T17:56:04.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Services\\UserService.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\UserService.cs",
+              "RelativeToolTip": "BsdFinalProject\\Services\\UserService.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAIEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T18:01:58.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\IService\\IUserService.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\IService\\IUserService.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\IService\\IUserService.cs",
+              "RelativeToolTip": "BsdFinalProject\\IService\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:52:25.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManegersController.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Controllers\\ManegersController.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Controllers\\ManegersController.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Controllers\\ManegersController.cs",
+              "RelativeToolTip": "BsdFinalProject\\Controllers\\ManegersController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:52:51.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WinnersController.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Controllers\\WinnersController.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Controllers\\WinnersController.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Controllers\\WinnersController.cs",
+              "RelativeToolTip": "BsdFinalProject\\Controllers\\WinnersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:53:09.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SaleContextFactory.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Data\\SaleContextFactory.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Data\\SaleContextFactory.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Data\\SaleContextFactory.cs",
+              "RelativeToolTip": "BsdFinalProject\\Data\\SaleContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T17:51:08.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GiftsController.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Controllers\\GiftsController.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Controllers\\GiftsController.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Controllers\\GiftsController.cs",
+              "RelativeToolTip": "BsdFinalProject\\Controllers\\GiftsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:33:33.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DonorsController.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Controllers\\DonorsController.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Controllers\\DonorsController.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Controllers\\DonorsController.cs",
+              "RelativeToolTip": "BsdFinalProject\\Controllers\\DonorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:33:26.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CardsController.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Controllers\\CardsController.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Controllers\\CardsController.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Controllers\\CardsController.cs",
+              "RelativeToolTip": "BsdFinalProject\\Controllers\\CardsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:33:23.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WinnerService.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\WinnerService.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Services\\WinnerService.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\WinnerService.cs",
+              "RelativeToolTip": "BsdFinalProject\\Services\\WinnerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T18:02:16.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Controllers\\CategoriesController.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "BsdFinalProject\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:52:14.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManagerService.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\ManagerService.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Services\\ManagerService.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\ManagerService.cs",
+              "RelativeToolTip": "BsdFinalProject\\Services\\ManagerService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T18:01:25.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BasketsController.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Controllers\\BasketsController.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Controllers\\BasketsController.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Controllers\\BasketsController.cs",
+              "RelativeToolTip": "BsdFinalProject\\Controllers\\BasketsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:03:00.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GiftService.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\GiftService.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Services\\GiftService.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\GiftService.cs",
+              "RelativeToolTip": "BsdFinalProject\\Services\\GiftService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T18:01:01.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DonorService.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\DonorService.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Services\\DonorService.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\DonorService.cs",
+              "RelativeToolTip": "BsdFinalProject\\Services\\DonorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T18:00:43.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICardRepository.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\IRepository\\ICardRepository.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\IRepository\\ICardRepository.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\IRepository\\ICardRepository.cs",
+              "RelativeToolTip": "BsdFinalProject\\IRepository\\ICardRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:16:05.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\IRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\IRepository\\ICategoryRepository.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\IRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "BsdFinalProject\\IRepository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:15:31.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Services\\CategoryService.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\CategoryService.cs",
+              "RelativeToolTip": "BsdFinalProject\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T18:00:22.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CardService.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\CardService.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Services\\CardService.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\CardService.cs",
+              "RelativeToolTip": "BsdFinalProject\\Services\\CardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:19:23.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BasketService.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\BasketService.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Services\\BasketService.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Services\\BasketService.cs",
+              "RelativeToolTip": "BsdFinalProject\\Services\\BasketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T17:59:21.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IDonorService.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\IService\\IDonorService.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\IService\\IDonorService.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\IService\\IDonorService.cs",
+              "RelativeToolTip": "BsdFinalProject\\IService\\IDonorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:21:32.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IBasketService.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\IService\\IBasketService.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\IService\\IBasketService.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\IService\\IBasketService.cs",
+              "RelativeToolTip": "BsdFinalProject\\IService\\IBasketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:20:57.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IGiftRepository.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\IRepository\\IGiftRepository.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\IRepository\\IGiftRepository.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\IRepository\\IGiftRepository.cs",
+              "RelativeToolTip": "BsdFinalProject\\IRepository\\IGiftRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:18:48.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Repositories\\UserRepository.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "BsdFinalProject\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T17:58:25.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ManagerRepository.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\ManagerRepository.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Repositories\\ManagerRepository.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\ManagerRepository.cs",
+              "RelativeToolTip": "BsdFinalProject\\Repositories\\ManagerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T17:57:33.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GiftRepository.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\GiftRepository.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Repositories\\GiftRepository.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\GiftRepository.cs",
+              "RelativeToolTip": "BsdFinalProject\\Repositories\\GiftRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T17:57:21.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DonorRepository.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\DonorRepository.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Repositories\\DonorRepository.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\DonorRepository.cs",
+              "RelativeToolTip": "BsdFinalProject\\Repositories\\DonorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T17:57:07.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BasketRepository.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\BasketRepository.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Repositories\\BasketRepository.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\BasketRepository.cs",
+              "RelativeToolTip": "BsdFinalProject\\Repositories\\BasketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T17:04:22.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WinnerRepository.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\WinnerRepository.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Repositories\\WinnerRepository.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\WinnerRepository.cs",
+              "RelativeToolTip": "BsdFinalProject\\Repositories\\WinnerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T17:58:35.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\LoginDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T11:48:57.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\CreateUserDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateUserDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:53.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GiftDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\GiftDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\GiftDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\GiftDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\GiftDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T13:35:03.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DonorDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\DonorDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\DonorDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\DonorDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\DonorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:56.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CreateWinnerDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateWinnerDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\CreateWinnerDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateWinnerDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\CreateWinnerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:54.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CreateManegerDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateManegerDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\CreateManegerDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateManegerDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\CreateManegerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:52.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "BsdFinalProject\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T17:56:32.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CreateGiftDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateGiftDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\CreateGiftDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateGiftDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\CreateGiftDto.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:16.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CreateDonorDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateDonorDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\CreateDonorDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateDonorDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\CreateDonorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:44.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\CreateCategoryDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateCategoryDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:49.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CreateCardDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateCardDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\CreateCardDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateCardDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\CreateCardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:49.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CreateBasketDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateBasketDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\CreateBasketDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CreateBasketDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\CreateBasketDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:48.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\CategoryDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:47.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CardDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CardDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\CardDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\CardDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\CardDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:47.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "WinnerDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\WinnerDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\WinnerDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\WinnerDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\WinnerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:59.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\UserDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:58.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ManegerDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\ManegerDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\ManegerDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\ManegerDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\ManegerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:57.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "BasketDto.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\BasketDto.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\DTOs\\BasketDto.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\DTOs\\BasketDto.cs",
+              "RelativeToolTip": "BsdFinalProject\\DTOs\\BasketDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:54:46.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Basket.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\Basket.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Models\\Basket.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\Basket.cs",
+              "RelativeToolTip": "BsdFinalProject\\Models\\Basket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:31:37.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Card.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\Card.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Models\\Card.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\Card.cs",
+              "RelativeToolTip": "BsdFinalProject\\Models\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T15:39:10.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Gift.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\Gift.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Models\\Gift.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\Gift.cs",
+              "RelativeToolTip": "BsdFinalProject\\Models\\Gift.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:22:51.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Winner.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\Winner.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Models\\Winner.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\Winner.cs",
+              "RelativeToolTip": "BsdFinalProject\\Models\\Winner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:31:13.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "IUserRepository.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\IUserRepository.cs",
+              "RelativeToolTip": "IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T10:57:53.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Donor.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\Donor.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Models\\Donor.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\Donor.cs",
+              "RelativeToolTip": "BsdFinalProject\\Models\\Donor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T19:16:13.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "User.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Models\\User.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\User.cs",
+              "RelativeToolTip": "BsdFinalProject\\Models\\User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:30:53.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "BsdFinalProject.csproj",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\BsdFinalProject.csproj",
+              "RelativeDocumentMoniker": "BsdFinalProject\\BsdFinalProject.csproj",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\BsdFinalProject.csproj",
+              "RelativeToolTip": "BsdFinalProject\\BsdFinalProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-24T17:41:35.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "GiftController.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\csharp BsdFinalProject\\Controllers\\GiftController.cs",
+              "RelativeDocumentMoniker": "csharp BsdFinalProject\\Controllers\\GiftController.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\csharp BsdFinalProject\\Controllers\\GiftController.cs",
+              "RelativeToolTip": "csharp BsdFinalProject\\Controllers\\GiftController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T13:42:52.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\Manager.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Models\\Manager.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\Manager.cs",
+              "RelativeToolTip": "BsdFinalProject\\Models\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:21:35.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Category.cs",
+              "DocumentMoniker": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "BsdFinalProject\\Models\\Category.cs",
+              "ToolTip": "M:\\\u05E4\u05E8\u05D5\u05D9\u05E7\u05D8 \u05D1\u05E1\u05D3\\BsdFinalProject\\BsdFinalProject\\Models\\Category.cs",
+              "RelativeToolTip": "BsdFinalProject\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:29:29.38Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

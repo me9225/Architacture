@@ -56,6 +56,8 @@ services:
       Redis__Port: "6379"
       Redis__Password: "YourRedisPassword123"
       Cache__DefaultTTL: "3600"
+      Kafka__BootstrapServers: "kafka:9092"
+      Kafka__Topic: "transactions"
     ports:
       - "5000:80"
     depends_on:
@@ -63,11 +65,57 @@ services:
         condition: service_healthy
       redis:
         condition: service_healthy
+      zookeeper:
+        condition: service_started
+      kafka:
+        condition: service_started
     networks:
       - bsd_network
     volumes:
       - ./BsdFinalProject:/app/BsdFinalProject
     restart: unless-stopped
+
+  # Zookeeper for Kafka
+  zookeeper:
+    image: bitnami/zookeeper:3.8
+    container_name: bsd_zookeeper
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+    ports:
+      - "2181:2181"
+    networks:
+      - bsd_network
+
+  # Kafka broker
+  kafka:
+    image: bitnami/kafka:latest
+    container_name: bsd_kafka
+    environment:
+      - KAFKA_BROKER_ID=1
+      - KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181
+      - KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092
+      - ALLOW_PLAINTEXT_LISTENER=yes
+    ports:
+      - "9092:9092"
+    networks:
+      - bsd_network
+    depends_on:
+      - zookeeper
+
+  # Kafka UI
+  kafka-ui:
+    image: provectuslabs/kafka-ui:latest
+    container_name: bsd_kafka_ui
+    environment:
+      KAFKA_CLUSTERS_0_NAME: "local"
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: "kafka:9092"
+      KAFKA_CLUSTERS_0_ZOOKEEPER: "zookeeper:2181"
+    ports:
+      - "8080:8080"
+    networks:
+      - bsd_network
+    depends_on:
+      - kafka
 
 volumes:
   sqlserver_data:

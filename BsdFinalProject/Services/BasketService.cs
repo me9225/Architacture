@@ -13,14 +13,16 @@ namespace FinalProject.Services
         private readonly IGiftService _giftService;
         private readonly ICacheService _cacheService;
         private readonly ILogger<BasketService> _logger;
+        private readonly BsdFinalProject.Services.IKafkaProducer _kafkaProducer;
         private const string CACHE_KEY_PREFIX = "basket_";
         private const string CACHE_KEY_USER_BASKETS = "user_baskets_";
 
-        public BasketService(IGiftService giftService, ICacheService cacheService, ILogger<BasketService> logger)
+        public BasketService(IGiftService giftService, ICacheService cacheService, ILogger<BasketService> logger, BsdFinalProject.Services.IKafkaProducer kafkaProducer)
         {
             _giftService = giftService;
             _cacheService = cacheService;
             _logger = logger;
+            _kafkaProducer = kafkaProducer;
         }
 
         public async Task<List<BasketDto>> GetAllMyBasket(int Id)
@@ -68,6 +70,16 @@ namespace FinalProject.Services
             {
                 await _cacheService.RemoveAsync($"{CACHE_KEY_USER_BASKETS}{basket.UserId}");
                 _logger.LogInformation($"Created basket for user {basket.UserId} and invalidated cache");
+
+                // Produce Kafka message about the new order
+                var message = new
+                {
+                    Event = "BasketCreated",
+                    UserId = basket.UserId,
+                    GiftId = basket.GiftId,
+                    Timestamp = DateTime.UtcNow
+                };
+                await _kafkaProducer.ProduceAsync(message);
             }
             
             return B == null ? null : basket;

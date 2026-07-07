@@ -14,13 +14,15 @@ namespace BsdFinalProject.Services
         private readonly GiftRepository _Grepository = new();
         private readonly ICacheService _cacheService;
         private readonly ILogger<WinnerService> _logger;
+        private readonly BsdFinalProject.Services.IKafkaProducer _kafkaProducer;
         private const string CACHE_KEY_ALL_WINNERS = "all_winners";
         private const string CACHE_KEY_PREFIX = "winner_gift_";
 
-        public WinnerService(ICacheService cacheService, ILogger<WinnerService> logger)
+        public WinnerService(ICacheService cacheService, ILogger<WinnerService> logger, BsdFinalProject.Services.IKafkaProducer kafkaProducer)
         {
             _cacheService = cacheService;
             _logger = logger;
+            _kafkaProducer = kafkaProducer;
         }
 
         public async Task<IEnumerable<WinnerDto>> getAllWinners()

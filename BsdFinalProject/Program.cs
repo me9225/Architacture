@@ -13,7 +13,12 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using StackExchange.Redis;
+using Confluent.Kafka;
+using System.Threading.RateLimiting;
+using Microsoft.AspNetCore.RateLimiting;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using Microsoft.AspNetCore.Http;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -50,6 +55,34 @@ var redis = ConnectionMultiplexer.Connect(redisConnectionString);
 builder.Services.AddSingleton<IConnectionMultiplexer>(redis);
 builder.Services.AddScoped<ICacheService, CacheService>();
 
+// Rate limiting - Sliding Window per-client (by IP). Values can be configured in appsettings.json
+var permitLimit = int.TryParse(builder.Configuration["RateLimiting:RequestLimit"], out var rl) ? rl : 100;
+var windowMinutes = int.TryParse(builder.Configuration["RateLimiting:TimeWindowMinutes"], out var wm) ? wm : 1;
+var segmentsPerWindow = 4; // segmentation for sliding window
+
+builder.Services.AddRateLimiter(options =>
+{
+    options.OnRejected = (context, cancellationToken) =>
+    {
+        context.HttpContext.Response.StatusCode = StatusCodes.Status429TooManyRequests;
+        return new ValueTask();
+    };
+
+    options.AddPolicy<string>("SlidingWindow", httpContext =>
+        RateLimitPartition.GetSlidingWindowLimiter(
+            httpContext.Connection.RemoteIpAddress?.ToString()
+                ?? httpContext.Request.Headers["X-Forwarded-For"].FirstOrDefault()
+                ?? "anonymous",
+            _ => new SlidingWindowRateLimiterOptions
+            {
+                PermitLimit = permitLimit,
+                Window = TimeSpan.FromMinutes(windowMinutes),
+                SegmentsPerWindow = segmentsPerWindow,
+                QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
+                QueueLimit = 0
+            }));
+});
+
 // Add repository and service registrations
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
@@ -65,6 +98,10 @@ builder.Services.AddScoped<ICardService, CardService>();
 builder.Services.AddScoped<ICardRepository, CardRepository>();
 builder.Services.AddScoped<IBasketService, BasketService>();
 builder.Services.AddScoped<IBasketRepository, BasketRepository>();
+
+// Kafka Producer and Consumer
+builder.Services.AddSingleton<BsdFinalProject.Services.IKafkaProducer, BsdFinalProject.Services.KafkaProducer>();
+builder.Services.AddHostedService<BsdFinalProject.HostedServices.KafkaConsumerHostedService>();
 
 // DbContext
 builder.Services.AddDbContext<SaleContext>(options =>
@@ -109,6 +146,25 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
+// If a JWT is stored in an HttpOnly cookie, copy it into the Authorization header
+// so the JWT Bearer middleware can authenticate it.
+app.Use(async (context, next) =>
+{
+    if (!context.Request.Headers.ContainsKey("Authorization") && context.Request.Cookies.ContainsKey("access_token"))
+    {
+        var token = context.Request.Cookies["access_token"];
+        if (!string.IsNullOrEmpty(token))
+        {
+            context.Request.Headers.Append("Authorization", "Bearer " + token);
+        }
+    }
+
+    await next();
+});
+
+// Rate limiting middleware - run before authentication to avoid extra work on over-limit clients
+app.UseRateLimiter();
+
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
